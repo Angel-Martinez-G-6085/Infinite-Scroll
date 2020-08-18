@@ -20,3 +20,17 @@ h1{
     left: 50%;
     transform:translate(-50%,-50%);
 }
+
+.image-container{
+    margin:auto 30%;
+    max-width: 900px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container img{
+    margin-bottom: 15px;
+    width: 100%;
+    height: 100%;
+}
